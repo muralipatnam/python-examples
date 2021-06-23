@@ -46,12 +46,14 @@ with more than
 one line code."""
 unicode = u"\u00dcnic\u00f6de"
 raw_str = r"raw \n string"
+not_raw_str = "raw \n string"
 
 print(strings)
 print(char)
 print(multiline_str)
 print(unicode)
 print(raw_str)
+print(not_raw_str)
 
 # Boolean literals
 x = (1 == True)
@@ -65,7 +67,7 @@ print("a:", a)
 print("b:", b)
 
 print("__________________________Constants__________________________________________________________")
-import intro.constant as constant
+import collectionz.constant as constant
 
 print(constant.PI)
 print(constant.GRAVITY)
@@ -75,7 +77,9 @@ test = []
 print(test, 'is', bool(test))
 
 test = [0]
+print(test, len(test))
 print(test, 'is', bool(test))
+print(test[0], 'is', bool(test[0]))
 
 test = 0.0
 print(test, 'is', bool(test))

@@ -24,6 +24,7 @@ print(my_iter.__next__())
 # This will raise error, no items left
 # next(my_iter)
 
+
 print("__________________________Printing sum till 20 using while() loop_______________________________")
 a = 10  # Initialization
 while a <= 20:  # Condition  -- used for linkedList or DB queries.When you do not know when to exit
@@ -47,6 +48,9 @@ print("__________________________for loop using list____________________________
 lang = ("Python", "C", "C++", "Java")
 for i in range(len(lang)):
    print(lang[i])
+
+for i in lang:
+   print(i)
 
 print("__________________________for loop using list________________________________________________")
 
